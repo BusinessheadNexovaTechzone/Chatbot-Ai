@@ -51,3 +51,6 @@ coverage.xml
 *.zip
 *.tmp
 test.json
+dump.rdb
+snapshots/
+test_output.txt
