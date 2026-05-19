@@ -1,0 +1,11 @@
+# Test file for upload and embedding functionality
+This is a sample text file that can be uploaded to test the file upload and embedding endpoint.
+
+The endpoint will:
+1. Read the file content
+2. Clean the text (remove boilerplate)
+3. Split into chunks
+4. Generate vector embeddings
+5. Store in the vector database
+
+This allows the chatbot to search and retrieve information from uploaded documents.

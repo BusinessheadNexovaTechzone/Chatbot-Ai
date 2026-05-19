@@ -1,0 +1,28 @@
+# Virtual environment (VERY IMPORTANT)
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Git files
+.git/
+.gitignore
+
+# Local settings (do not deploy secrets)
+local.settings.json
+
+# Environment files
+.env
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code settings (optional)
+.vscode/

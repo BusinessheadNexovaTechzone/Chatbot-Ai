@@ -1,0 +1,17 @@
+Sample PDF Content
+==================
+
+This is a sample document that demonstrates PDF text extraction capabilities.
+
+Key Features:
+- Multiple paragraphs
+- Different text formatting
+- Structured content
+
+The file upload system can now process PDF files, extract their text content, generate embeddings, and store them in the vector database for semantic search and retrieval.
+
+Technical Details:
+- Uses PyPDF2 library for text extraction
+- Supports text-based PDFs
+- Handles multi-page documents
+- Integrates with existing cleaning and chunking pipeline
