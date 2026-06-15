@@ -1,0 +1,52 @@
+# Virtual environment — never copy this; Docker installs its own
+.venv/
+venv/
+env/
+
+# Git and IDE
+.git/
+.gitignore
+.env
+*.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Test files
+test_*.py
+*_test.py
+tests/
+pytest.ini
+.pytest_cache/
+
+# Logs
+*.log
+app.log
+
+# Large data / DB files
+*.rdb
+dump.rdb
+*.zip
+check_vectors.zip
+
+# Docs (not needed in container)
+*.md
+CLAUDE.md
+
+# Local config / temp
+*.txt
+sample_content.txt
+test_output.txt
+test.json
+tmp_*.py
+debug_*.py
+example_*.py
+comprehensive_test.py
+
+# OS artifacts
+.DS_Store
+Thumbs.db

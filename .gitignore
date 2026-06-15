@@ -1,0 +1,57 @@
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+storage/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Logs
+*.log
+app.log
+logs/
+
+# Vector storage
+storage/
+
+# Large datasets
+data/
+datasets/
+
+# Sentence-transformers / HuggingFace model cache
+.cache/
+models/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+.claude
+*.swp
+*.swo
+
+# Testing
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# Misc
+*.zip
+*.tmp
+test.json
